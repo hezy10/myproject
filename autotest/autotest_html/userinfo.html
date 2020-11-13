@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户信息展示</title>
+    <style>
+        body,h1,div,input,span,br{margin: 0;padding: 0}
+        .main{
+            width: 500px;
+            height: 500px;
+            overflow: hidden;
+            margin: 10px auto;
+            box-sizing: border-box;
+        }
+        h1{font-family: "黑体";
+            font-size: 24px;
+            height: 40px;
+            border-bottom: 1px solid #ddd;
+        }
+        .form{
+            margin-top: 20px;
+        }
+        span  {
+            width: 120px;
+            display: inline-block;
+            text-align: right;
+        }
+        input{
+            width: 300px;
+            height: 40px;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        .style01{
+            text-align: center;
+            display: none;
+        }
+        .style02{
+            display: block;
+        }
+    </style>
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/userinfo.js"></script>
+</head>
+<body>
+    <div class = 'main'>
+        <h1>用户信息</h1>
+        <div class="form">
+            <span>账号:</span><input type="text" name="acount" id="username"><br>
+            <span>手机号码:</span><input type="text" name="phone" id="phone"><br>
+            <div class="style01" id="showerror">请填写正确的手机号码</div>
+            <span>邮箱:</span><input type="text" name="e_mail" id="e_mail"><br>
+            <!--<span>昵称:</span><input type="text" name="username" id="username"><br>-->
+            <!--<span>地址:</span><input type="text" name="username" id="address"><br>-->
+            <!--<span></span><input type="submit" value="获取数据" id="subbtn">-->
+            <span></span><input type="submit" value="更改数据" id="subbtn">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+1数组的随机抽样创建
+1.1 rand
+
+1.2 uniform
+
+1.3 randint
+
+2数组的序列创建
+2.1 array
+
+2.2 zeros
+
+2.3 ones
+
+2.4 arange

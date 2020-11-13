@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户信息界面</title>
+
+    <style>
+         .main{
+            width:500px;
+            height: 500px;
+            /*{#background-color: green;#}*/
+            overflow: hidden;
+            margin: 10px auto;
+            box-sizing: border-box;
+        }
+
+        h1{
+            font-family: "黑体";
+            font-size: 24px;
+            height: 40px;
+            border-bottom: 1px solid #ddd;
+        }
+
+         span{
+            width: 110px;
+            display: inline-block;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <h1>用户信息</h1>
+    <div class="user">
+        <span>名字：</span><input type="text" name="name" id="name"><br>
+        <span>性别：</span><input type="text" name="gender" id="gender"><br>
+        <span>年龄：</span><input type="text" name="age" id="age"><br>
+        <span>手机号码：</span><input type="text" name="phone" id="phone"><br>
+        <span>邮箱：</span><input type="text" name="email" id="email"><br>
+        <span>地址：</span><input type="text" name="location" id="location"><br>
+        <span></span><input type="submit" name="sub" id="sub">
+    </div>
+</div>
+</body>
+</html>
